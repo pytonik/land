@@ -9,18 +9,18 @@
     <meta name="keywords" content="Pytonik" />
     <meta name="description" content="Pytonik" />
     <title>{{title}} | {{name}}</title>
-    <link rel="shortcut icon" href="public/static/img/favicon.png" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="{% call path 'public/static/img/favicon.png' %}" />
-    <link rel="stylesheet" href="{% call path 'public/static/css/bootstrap.min.css' %}" />
-    <link rel="stylesheet" href="{% call path 'public/static/font/ionicons/css/ionicons.min.css' %}" />
-    <link rel="stylesheet" href="{% call path 'public/static/css/main.min.css' %}" />
+    <link rel="shortcut icon" href="./static/img/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./static/img/favicon.png" />
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./static/font/ionicons/css/ionicons.min.css" />
+    <link rel="stylesheet" href="./static/css/main.min.css" />
 </head>
 
 <body>
     <div class="wrapper-landing-page">
         <header class="header">
             <nav class="navbar fixed-top px-2 px-md-4 py-2 align-items-center">
-                <a class="navbar-brand text-white" href="https://pytonik.com/"><img src="public/static/img/logo.png" width="85px" /></a>
+                <a class="navbar-brand text-white" href="https://pytonik.com/"><img src="./static/img/logo.png" width="85px" /></a>
                 <!-- <a href="#" class="btn-dload btn-dload-sm">Download v1.0</a> -->
             </nav>
             <section class="banner line-bottom">
@@ -53,13 +53,13 @@
         </header>
         <footer class="footer">
             <p class="m-0 f-xs--5 f-w--4 text-center col-12">
-                Copyright &commat; {% call now 'date' format='%Y' %} {{name}}
+                Copyright &commat; {% call now 'date' format='%Y {{name}}
             </p>
         </footer>
     </div>
-    <script src="{% call path 'public/static/js/jquery-3.4.1.min.js' %}"></script>
-    <script src="{% call path 'public/static/js/bootstrap.bundle.min.js' %}"></script>
-    <script src="{% call path 'public/static/js/main.min.js' %}"></script>
+    <script src="./static/js/jquery-3.4.1.min.js"></script>
+    <script src="./static/js/bootstrap.bundle.min.js"></script>
+    <script src="./static/js/main.min.js"></script>
 </body>
 
 </html>
